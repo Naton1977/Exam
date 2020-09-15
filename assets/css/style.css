@@ -1,0 +1,739 @@
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+}
+
+main {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#conteiner1a {
+    display: none;
+}
+
+#conteiner1 ul li {
+    list-style-type: none;
+}
+
+#conteiner1 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteiner1 {
+    font-size: 1.6vw;
+    width: 50%;
+    border-bottom: 1px solid gainsboro;
+}
+
+#conteiner2 ul li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+#conteiner2 ul {
+    display: flex;
+}
+
+#conteiner2 img {
+    height: 20px;
+    width: 20px;
+}
+
+#conteiner2 {
+    width: 50%;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+#conteiner3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#item1 {
+    font-size: 1.6vw;
+    text-align: justify;
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid gainsboro;
+}
+
+#item1 h1 {
+    font-size: 4vw;
+    font-weight: lighter;
+
+}
+
+#item2 {
+    width: 50%;
+}
+
+#item2a img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 10px;
+    height: 35px;
+    width: 70px;
+}
+
+#conteiner5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#item3 {
+    width: 40%;
+}
+
+#item4 {
+    width: 60%;
+    border-bottom: 1px solid gainsboro;
+}
+
+#item4a {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.6vw;
+    text-align: justify;
+}
+
+#item4a h1 {
+    font-weight: lighter;
+    font-size: 4vw;
+}
+
+#conteiner6 {
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+}
+
+#item5 {
+    width: 60%;
+}
+
+#item5 h1 {
+    font-weight: lighter;
+    font-size: 4vw;
+}
+
+#item5 {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 1.6vw;
+    text-align: justify;
+}
+
+#item6 {
+    width: 40%;
+}
+
+#conteiner7 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#item7 {
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+#conteiner8 {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#item8 img {
+    width: 25%;
+}
+
+#item8 img + img {
+    margin-left: -5px;
+}
+
+#conteiner9 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#conteiner10 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#conteiner10 div {
+    width: 33%;
+}
+
+#conteiner10 {
+    text-align: center;
+}
+
+#conteiner10 div {
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#conteiner10a {
+    border-bottom: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+}
+
+#conteiner10b {
+    border-bottom: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+}
+
+#conteiner10c {
+    border-bottom: 1px solid gainsboro;
+}
+
+#conteiner10d {
+    border-right: 1px solid gainsboro;
+}
+
+#conteiner10e {
+    border-right: 1px solid gainsboro;
+}
+
+#conteiner11 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -50px;
+    margin-top: 40px;
+}
+
+#item9 {
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+#item10 {
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+form {
+    margin-top: 30px;
+    width: 100%;
+}
+
+#conteiner12 {
+    width: 79%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+#conteiner12 div:nth-of-type(1) {
+    width: 30%;
+}
+
+#conteiner12 div:nth-of-type(1) input {
+    width: 100%;
+}
+
+#conteiner12 div:nth-of-type(2) {
+    width: 30%;
+}
+
+#conteiner12 div:nth-of-type(2) input {
+    width: 100%;
+}
+
+#conteiner12 div:nth-of-type(3) {
+    width: 30%;
+}
+
+#conteiner12 div:nth-of-type(3) input {
+    width: 100%;
+}
+
+
+#conteiner13 {
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+
+#conteiner13 input {
+    width: 5%;
+}
+
+#item14 {
+    margin-top: 15px;
+    width: 84%;
+}
+
+#conteiner14 {
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+
+#conteiner15 {
+    margin-left: 60px;
+
+}
+
+#conteiner15 textarea {
+    width: 84%;
+    height: 100px;
+}
+
+#conteiner16 {
+    margin-top: 20px;
+    margin-left: 60px;
+
+}
+
+#item15 {
+    cursor: pointer;
+}
+
+#item15a {
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+}
+
+#conteiner17 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#item16 {
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    color: black;
+    border: 1px solid black;
+}
+
+#item17 {
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    color: black;
+    border: 1px solid black;
+}
+
+#item18 {
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 22px;
+    color: black;
+}
+
+#item19, #item20 {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#item19 img, #item20 img {
+    margin-top: 7px;
+    margin-left: 7px;
+    width: 25px;
+    height: 25px;
+}
+
+#conteiner18 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 849px) {
+    #conteiner1 {
+        width: 80%;
+    }
+
+    #conteiner2 {
+        display: none;
+    }
+
+    #item1 button {
+        font-size: 1.6vw;
+    }
+
+    #item4a button {
+        margin-top: -3%;
+        font-size: 1.6vw;
+    }
+
+    #item4a p {
+        margin-top: -6%;
+    }
+
+    #item5 button {
+        margin-top: -2%;
+        font-size: 1.6vw;
+    }
+
+    #item8 img {
+        width: 50%;
+    }
+
+    #item8 img:nth-of-type(1) {
+        display: none;
+    }
+
+    #item8 img:nth-of-type(4) {
+        display: none;
+    }
+
+    #conteiner10 div {
+        width: 50%;
+    }
+
+    #conteiner10a {
+        border-bottom: 1px solid gainsboro;
+        border-right: 1px solid gainsboro;
+    }
+
+    #conteiner10b {
+        border-bottom: 1px solid gainsboro;
+        border-right: 1px solid gainsboro;
+    }
+
+    #conteiner10c {
+        border-bottom: 1px solid gainsboro;
+        border-right: 1px solid gainsboro;
+    }
+
+    #conteiner10d {
+        border-right: 1px solid gainsboro;
+        border-bottom: 1px solid gainsboro;
+    }
+
+    #conteiner10e {
+        border-right: 1px solid gainsboro;
+    }
+
+    #conteiner12 div:nth-of-type(1) {
+        width: 28%;
+    }
+
+    #conteiner12 div:nth-of-type(2) {
+        margin-left: -5px;
+        width: 28%;
+    }
+
+    #conteiner12 div:nth-of-type(3) {
+        margin-right: 5px;
+        width: 28%;
+    }
+
+    #item1 {
+        font-size: 2vw;
+    }
+
+    #item1 h1 {
+        font-size: 4vw;
+        font-weight: lighter;
+    }
+
+    #item4a {
+        font-size: 2vw;
+    }
+
+    #item4a h1 {
+        font-size: 4vw;
+        font-weight: lighter;
+    }
+
+    #item5 {
+        font-size: 2vw;
+    }
+
+    #item5 h1 {
+        font-size: 4vw;
+        font-weight: lighter;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+    #conteiner1 {
+        display: none;
+    }
+
+    #conteiner3 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    #item1 {
+        font-size: 1.6vw;
+        text-align: justify;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border: 0;
+    }
+
+    #item2 {
+        width: 100%;
+    }
+
+    #conteiner5 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #item4 {
+        width: 100%;
+    }
+
+    #conteiner6 {
+        display: flex;
+    }
+
+    #item3 {
+        width: 100%;
+    }
+
+    #item4 {
+        width: 100%;
+        border-bottom: 0;
+    }
+
+    #conteiner6 {
+        flex-direction: column-reverse;
+    }
+
+    #item6 {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    #item5 {
+        width: 100%;
+        border: 0;
+        margin-bottom: 20px;
+    }
+
+    #item5 p {
+        margin-bottom: 20px;
+    }
+
+    #item8 img:nth-of-type(2) {
+        display: none;
+    }
+
+    #item8 img:nth-of-type(3) {
+        width: 100%;
+    }
+
+    #conteiner10 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #conteiner10 div {
+        width: 75%;
+    }
+
+    #conteiner10a {
+        border-bottom: 1px solid gainsboro;
+        border-right: 0;
+    }
+
+    #conteiner10b {
+        border-right: 0;
+    }
+
+    #conteiner10c {
+        border-right: 0;
+    }
+
+    #conteiner10d {
+        border-right: 0;
+    }
+
+    #conteiner10e {
+        border-right: 0;
+        border-bottom: 1px solid gainsboro;
+    }
+
+    #conteiner10f {
+        border-bottom: 1px solid gainsboro;
+    }
+
+    #conteiner12 {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #conteiner12 div:nth-of-type(1) {
+        width: 90%;
+    }
+
+    #conteiner12 div:nth-of-type(1) input {
+        width: 90%;
+        margin-bottom: -5px;
+    }
+
+    #conteiner12 div:nth-of-type(2) {
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    #conteiner12 div:nth-of-type(2) input {
+        margin-left: 5px;
+        width: 90%;
+    }
+
+    #conteiner12 div:nth-of-type(3) {
+        width: 90%;
+    }
+
+    #conteiner12 div:nth-of-type(3) input {
+        margin-left: 5px;
+        width: 90%;
+    }
+
+    #item1 {
+        font-size: 3vw;
+    }
+
+    #item1 h1 {
+        font-size: 5vw;
+        font-weight: lighter;
+    }
+
+    #item4a {
+        font-size: 3vw;
+    }
+
+    #item4a h1 {
+        font-size: 5vw;
+        font-weight: lighter;
+    }
+
+    #item5 {
+        font-size: 3vw;
+    }
+
+    #item5 h1 {
+        font-size: 5vw;
+        font-weight: lighter;
+    }
+
+    #conteiner1a {
+        width: 90%;
+        display: block;
+    }
+
+    #conteiner1a ul li {
+        list-style-type: none;
+    }
+
+    #conteiner1a img {
+        margin-bottom: -1%;
+        width: 15px;
+        cursor: pointer;
+    }
+
+    #item1a-1 {
+        margin-left: 80%;
+        position: relative;
+        margin-top: -9%;
+    }
+
+    #item1a-2 {
+        position: absolute;
+        border: 1px solid black;
+        width: 25%;
+        text-align: center;
+        background-color: gainsboro;
+        margin-left: 54%;
+        cursor: pointer;
+        height: 4%;
+    }
+
+    #item1a-2-1 {
+        position: absolute;
+        border: 1px solid black;
+        width: 25%;
+        height: 4%;
+        text-align: center;
+        background-color: gainsboro;
+        margin-left: 54%;
+        margin-top: 3.8%;
+        cursor: pointer;
+    }
+
+    #item1a-2-2 {
+        position: absolute;
+        border: 1px solid black;
+        width: 25%;
+        text-align: center;
+        background-color: gainsboro;
+        margin-left: 54%;
+        margin-top: 7.5%;
+        cursor: pointer;
+        height: 4%;
+    }
+
+    #item1a-2-3 {
+        position: absolute;
+        border: 1px solid black;
+        width: 25%;
+        text-align: center;
+        background-color: gainsboro;
+        margin-left: 54%;
+        margin-top: 11%;
+        cursor: pointer;
+        height: 4%;
+    }
+
+    .disp {
+        display: none;
+    }
+
+    #conteiner1a:hover .disp {
+        border: red;
+        display: block;
+    }
+
+}
