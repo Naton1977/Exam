@@ -19,6 +19,7 @@ main {
 
 #conteiner1 ul li {
     list-style-type: none;
+    cursor:pointer;
 }
 
 #conteiner1 ul {
