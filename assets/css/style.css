@@ -649,6 +649,7 @@ form {
     #item4a h1 {
         font-size: 5vw;
         font-weight: lighter;
+        margin-bottom: 40px;
     }
 
     #item5 {
@@ -669,6 +670,14 @@ form {
         list-style-type: none;
     }
 
+    #conteiner1a table{
+        border-collapse: collapse;
+    }
+    #conteiner1a td{
+        border: 1px solid black;
+        text-align: center;
+    }
+
     #conteiner1a img {
         margin-bottom: -1%;
         width: 15px;
@@ -683,58 +692,15 @@ form {
 
     #item1a-2 {
         position: absolute;
-        border: 1px solid black;
-        width: 25%;
-        text-align: center;
-        background-color: gainsboro;
-        margin-left: 54%;
+        width: 20%;
+        margin-left: 63%;
         cursor: pointer;
         height: 4%;
-    }
-
-    #item1a-2-1 {
-        position: absolute;
-        border: 1px solid black;
-        width: 25%;
-        height: 4%;
-        text-align: center;
-        background-color: gainsboro;
-        margin-left: 54%;
-        margin-top: 3.8%;
-        cursor: pointer;
-    }
-
-    #item1a-2-2 {
-        position: absolute;
-        border: 1px solid black;
-        width: 25%;
-        text-align: center;
-        background-color: gainsboro;
-        margin-left: 54%;
-        margin-top: 7.5%;
-        cursor: pointer;
-        height: 4%;
-    }
-
-    #item1a-2-3 {
-        position: absolute;
-        border: 1px solid black;
-        width: 25%;
-        text-align: center;
-        background-color: gainsboro;
-        margin-left: 54%;
-        margin-top: 11%;
-        cursor: pointer;
-        height: 4%;
-    }
-
-    .disp {
         display: none;
     }
-
-    #conteiner1a:hover .disp {
-        border: red;
+    #conteiner1a:hover #item1a-2{
         display: block;
     }
+
 
 }
